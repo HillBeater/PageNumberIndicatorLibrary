@@ -29,6 +29,10 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+
+    kotlin {
+        jvmToolchain(17)
+    }
 }
 
 dependencies {
@@ -38,10 +42,12 @@ dependencies {
     implementation(libs.compose.ui)
     implementation(libs.compose.material3)
     implementation(libs.compose.preview)
+    implementation(libs.material.v1130)
 
     debugImplementation(libs.compose.tooling)
 
     implementation(libs.androidx.core.ktx)
+    testImplementation(kotlin("test"))
 }
 
 afterEvaluate {
