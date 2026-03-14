@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Indicator Counter -->
+    <color name="indicator_counter_bg">#333333</color>
+    <color name="indicator_counter_text">#FFFFFF</color>
+
+    <!-- Dots -->
+    <color name="indicator_dot_color">#D3D3D3</color>
+
+</resources>
